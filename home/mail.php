@@ -1,15 +1,15 @@
 <?php
 
-if (isset($_POST['email'])) {
+if (isset($_POST['mail'])) {
 
-$to = "$_POST['email']";
-$subject = "";
+$to = "$_POST['mail']";
+$subject = "New Sub";
 $message = "";
 mail($to, $subject, $message);
 
-$your_email = "your email";
+$your_email = "danielwnewman@icloud.com";
 $subject_to_you = "someone subscribed to your news letter";
-$message_to_you = "";
+$message_to_you = "Add this to a list";
 mail($your_email, $subject_to_you, $message_to_you);
 
 }
