@@ -1,0 +1,61 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+@import "file:///Users/danielnewman/Documents/Wayne%20Inc/Elephant%20Pants/home/bootstrap-4.3.1/scss/bootstrap";
+@font-face {
+font-family: "kawoszeh";
+src: url("file:///Users/danielnewman/Documents/Wayne%20Inc/Elephant%20Pants/home/kawoszeh/kawoszeh.eot");
+src: url("file:///Users/danielnewman/Documents/Wayne%20Inc/Elephant%20Pants/home/kawoszeh/kawoszeh.woff") format("woff"),
+url("file:///Users/danielnewman/Documents/Wayne%20Inc/Elephant%20Pants/home/kawoszeh/kawoszeh.otf") format("opentype"),
+url("file:///Users/danielnewman/Documents/Wayne%20Inc/Elephant%20Pants/home/kawoszeh/kawoszeh.svg#filename") format("svg");
+}
+
+
+h1{
+  font-family: "kawoszeh", Georgia, "Times New Roman", serif;
+}
+h2{
+  font-family: "kawoszeh", Georgia, "Times New Roman", serif;
+}
+p {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-indent: 2.0em;
+    padding: 0 2.0em 0 2.0em;
+}
+#thumbnails {
+  width:190px;
+}
+#form{
+text-align: center
+
+}
+#button{
+  border: none;
+width: 250px;
+background-color: #718da0;
+}
+/* Sticky Footer Classes */
+
+html,body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+  text-align: center;
+}
+
+/* Other Classes for Page Styling */
+
+#logo {
+  background: #718da0;
+
+}
+small{
+    font-family: "kawoszeh", Georgia, "Times New Roman", serif;
+    font-size: 20px;
+}
