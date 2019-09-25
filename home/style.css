@@ -9655,19 +9655,15 @@ h3 {
     border-color: #dee2e6;
   }
 }
-/*@import "https://danielwnewman.github.io/elephant/home/bootstrap-4.3.1/scss/bootstrap";*/
+@import "https://danielwnewman.github.io/elephant/home/bootstrap-4.3.1/scss/bootstrap";
+
 @font-face {
-  font-family: "kawoszeh";
-  src: url("file:///Users/danielnewman/Documents/Wayne%20Inc/Elephant%20Pants/home/kawoszeh/kawoszeh.eot");
-  src: url("file:///Users/danielnewman/Documents/Wayne%20Inc/Elephant%20Pants/home/kawoszeh/kawoszeh.woff") format("woff"), url("file:///Users/danielnewman/Documents/Wayne%20Inc/Elephant%20Pants/home/kawoszeh/kawoszeh.otf") format("opentype"), url("file:///Users/danielnewman/Documents/Wayne%20Inc/Elephant%20Pants/home/kawoszeh/kawoszeh.svg#filename") format("svg");
-}
-/*@font-face {
 font-family: "kawoszeh";
 src: url("https://danielwnewman.github.io/elephant/home/kawoszeh/kawoszeh.eot");
 src: url("https://danielwnewman.github.io/elephant/home/kawoszeh/kawoszeh.woff") format("woff"),
 url("https://danielwnewman.github.io/elephant/home/kawoszeh/kawoszeh.otf") format("opentype"),
 url("https://danielwnewman.github.io/elephant/home/kawoszeh/kawoszeh.svg#filename") format("svg");
-}*/
+}
 h1 {
   font-family: "kawoszeh", Georgia, "Times New Roman", serif;
 }
